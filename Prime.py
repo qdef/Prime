@@ -7,6 +7,8 @@ def isPrime(x):
             break
     else:
         print(x, "is a prime number.")
+        
+#Tests:
 isPrime(1)
 isPrime(23)
 isPrime(67383)

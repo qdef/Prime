@@ -1,9 +1,9 @@
 def isPrime(x):
-    if x==0 or x==1:
+    if x==0 or x==1 :
         return print(x, "is not a prime number.")
-    if x==2:
+    if x==2 :
         return print(x,"is a prime number.")
-    for i in range(2,x):
+    for i in range(2,x) :
         if x%i == 0:
             print(x, "is not prime since it is a multiple of", i)
             break
